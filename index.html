@@ -1,13 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title> Zain Page</title>
-    </head>
-    <body>
-        <h1> Hello</h1>
-        <p> Welcome to my page !</p>
-        <br/>
-        <p>Picture of a caaaaaaaat.</p>
-        <img src="/image/cat1.jpg" alt="cat.jpg"/>
-    </body>
+
+<head>
+    <title>Zain Page</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <style>
+        html * {
+            font-family: Arial !important;
+        }
+
+        .profile_header {
+            text-align: center;
+            /* background-color: #545463; */
+            color: white;
+            padding-top: 4vh;
+            padding-bottom: 4vh;
+            height: 100%;
+            background-image: url("/image/black.jpg");
+        }
+
+        h2 {
+            color: #444444;
+            margin-bottom: 0pt;
+        }
+
+        p {
+            margin-top: 0pt;
+            font-size: small;
+        }
+
+        body {
+            background-image: linear-gradient(to bottom right, #b483ec , #3a0e7c);
+        }
+
+        .content-cell {
+            width: 50%;
+            padding-left: 1rem;
+            padding-left: 1rem;
+            background-color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+
+
+
+    <table style="width: 100%; height: 80%">
+        <tbody>
+            <tr>
+                <td style="width: 50%">
+                    <div class="profile_header">
+                        <img src="/image/cat1.jpg" alt="cat.jpg"
+                            style="width: 100px; border-radius: 50%;" />
+                        <br />
+                        <h1 style="font-size:medium;">
+                            <span id="myName">Zain Janpatiew</span>
+                        </h1>
+                        Information technology student<br />
+                    </div>
+                </td>
+                <td class="content-cell">
+                    <h2>Loves Sports</h2>
+                    <p>
+                        Plays flag footbal
+                    </p>
+
+                    <h2>Sleepy head</h2>
+                    <p>
+                        Can sleep anywhere
+                    </p>
+                    <h2>Night owl</h2>
+                    <p>
+                        Sleep pretty late
+                    </p>
+
+                    <h2>Food</h2>
+                    <p>
+                        Likes food
+                    </p>
+                </td>
+            </tr>
+
+        </tbody>
+    </table>
+    <button onclick="changeName()">Change Name</button>
+
+    <script>
+        console.log("Hello");
+        var x = 10;
+        var y = 20;
+        var z = x + y;
+        console.log(z)
+
+        function changeName() {
+            // change the name
+            var span = document.getElementById("myName");
+            span.innerHTML = "Jain Zanpatiew"
+        }
+    </script>
+</body>
+
 </html>
