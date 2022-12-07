@@ -1,29 +1,29 @@
 // define data
 let products = [
     {
-        name: "MacBook Pro 13",
+        name: "Sony TV",
+        quantity: 4,
+        ppu: 90000
+    },
+    {
+        name: "Razer Laptop",
+        quantity: 3,
+        ppu: 150000
+    },
+    {
+        name: "Iphone 14 Pro",
         quantity: 1,
-        ppu: 40000
+        ppu: 41900
     },
     {
-        name: "your Item",
-        quantity: 2,
-        ppu: 10000
-    },
-    {
-        name: "your Item",
-        quantity: 5,
-        ppu: 20000
-    },
-    {
-        name: "your Item",
-        quantity: 2,
-        ppu: 30000
-    },
-    {
-        name: "your Item",
+        name: "Samsung Smart Fridge",
         quantity: 1,
-        ppu: 40000
+        ppu: 50000
+    },
+    {
+        name: "Microsoft Surface Pro 9",
+        quantity: 3,
+        ppu: 130000
     }
 ]
 
