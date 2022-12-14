@@ -29,3 +29,7 @@
 .text-right {
     text-align: right;
 }
+
+.icon {
+    width: 1em;
+}
