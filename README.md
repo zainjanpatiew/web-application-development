@@ -1,2 +1,0 @@
-# zainjanpatiew.github.io
-
